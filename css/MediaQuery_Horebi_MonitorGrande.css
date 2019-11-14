@@ -1,0 +1,20 @@
+@media screen and (min-width: 1400px){/*se tendrá en cuenta solamente cuando la anchura de la pantalla sea de 1400px en adelante*/
+
+.contenedor_08{/*Tienda_Comercial.php*/
+	background-color: ;
+	width: 28%; 
+}
+.imagen_5{/*Tienda_Comercial.php*/
+	width: 20%; 
+}
+.imagen_Div_2{/*configurarT.php    configurarT_com.php*/
+	background-color: ;
+	top: 41%;
+	left:55.5%;
+	width: 10%
+}
+.tarjeta_1{/*configurarT.php*/
+	background-color: ; 
+    width: 22%; 
+}
+}

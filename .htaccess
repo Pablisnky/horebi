@@ -1,0 +1,13 @@
+#Entra al sitio web utilizando el certificado de seguridad SSL
+	RewriteEngine on
+	RewriteCond %{HTTPS} !=on
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+#Redirige el sitio web aún sino se escribe el www
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^horebi.com [NC]
+	RewriteRule ^(.*)$ http://www.horebi.com/$1 [L,R=301]
+
+#Mejorar la compatibilidad de los caracteres; Con esta medida evitamos mostrar el famoso error 500. 
+	AddDefaultCharset utf-8
+

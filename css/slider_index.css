@@ -1,0 +1,49 @@
+
+	.slider{/*Tienda_Comercial.php*/
+		background-color: ;
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		position: relative;
+		list-style: none;
+		padding: 0;
+		display: flex;
+	    justify-content: center;
+	    align-items: flex-end;
+	}
+	.slider img{/*Tienda_Comercial.php*/
+		background-color: ;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		transition: all 1s;
+	}
+	.slider input[type="radio"]{/*Tienda_Comercial.php*/
+		position: relative;
+		z-index: 1;
+		margin: 15px;
+	}
+	.slider input[type="radio"]:checked ~ img{/*Cuando el radio esta chequeado va a seleccionar la etiqueta img que sea hermana del input en cuestion*/
+		opacity: 1;
+	}
+	.icon-arrow-left2:before{/*Tienda_Comercial.php*/
+	  	content: "\ea40";
+	  	position: absolute;
+	  	top: 42%;
+	  	left: 2%;
+	  	z-index: 2;
+		/*width: 10%;*/
+		/*height: 100%;*/
+		/*background-color: rgba(0,0,0,0.1);*/
+	}
+	.icon-arrow-right2:before{/*Tienda_Comercial.php*/
+		content: "\ea3c";
+	  	position: absolute;
+	  	top: 42%;
+	  	left: 92%;
+	  	z-index: 2;
+	  	font-size: 20px;
+	}

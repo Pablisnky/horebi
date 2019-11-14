@@ -1,0 +1,2047 @@
+charset "UTF-8";
+header, section, body, footer, aside, nav, article, figure {
+display: block;
+margin: 0;
+padding: 0;
+}
+/*------ fin de reset CSS-----*/
+/*------ fin de reset CSS-----*/
+/*------ fin de reset CSS-----*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	box-sizing: border-box;
+}	
+a{
+	background-color: ;
+	text-decoration: none;
+	font-family: ;
+	color: #040652;
+}
+a:hover{
+	font-weight: bold;
+}
+body{
+	background-color:#F4FCFB ;
+	width: 100%x;
+}
+footer{
+	background:  rgba(4, 6, 82, 0.1);
+	text-align:center;
+	height: 15%;
+	font-size:10px;
+	font-weight: bold;
+	color:black;
+	position: relative;
+	border-top-color: #040652;
+	border-top-style: solid;
+	border-top-width: 3px;
+	clear: right;
+}
+header{
+	background-color:;
+	z-index: 5;
+}
+header label{/*todos los archivos*/
+	display: none;
+}
+header label:hover{/*Todos los archivos*/
+	background-color:;
+	cursor: pointer;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+hr{
+	margin-top: 4%;
+}
+h1{/**/
+	background-color: rgba(4, 6, 82, 0.1);/*azul claro*/
+	font-family:'courier';
+	font-size:5vw; 
+	text-align:center;
+	color:#040652;
+	padding-top: 1.1%;
+	height: 8vw;
+	letter-spacing:1vw;
+	cursor: pointer;
+}
+h2{/*directorio.php*/
+	background-color: ;
+	text-align: center;
+	font-size: 57px;
+	font-family:'courier';
+	letter-spacing: 2px;
+	color:#040652 ;
+	margin-bottom: -3% !important;
+}
+h3{/*titulos en todas las paginas*/
+	background-color:;
+	font-family: "verdana";
+ 	font-size:30px;
+	color:#040652;
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 4%;
+}
+h5{
+	font-family: 'arial';
+	text-align:center;
+	letter-spacing: 3px;
+	margin: 5 10;
+	color:blue;
+	font-size: 18px;
+	/*text-transform: uppercase;*/
+}
+h6{/*pacientes.php   Promo.php*/
+	font-family: 'verdana';
+	font-size: 16px;
+	/*text-transform: uppercase;*/
+	text-align: center;
+}
+img{
+	margin-left: auto;
+    margin-right: auto;
+	display:block;
+	width:100%;
+	margin-top: 0px;
+}
+input{
+	background-color: ;
+	width: 45%;
+	text-align:center;
+	padding-top: 2px;
+}
+input[type=submit]{
+	border-radius: 15px;
+	border:0px;
+	padding:2px 2px;
+	background:#040652;
+	color:rgba(194, 245, 19,1);
+	cursor: pointer;
+	width:95px;
+	height: 22px;
+	font-size:13px;
+	margin-top: 30px;
+}
+input[type=submit]:hover{
+	background:#040652;
+	font-weight: bold;
+	color: white !important;
+}
+input:focus{
+  	background-color: #EAF1FA;
+}  
+legend{
+	font-size: 20px;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+} 
+li{/*index.php*/
+	text-align:justify;
+	/*line-height:20px;*/
+}
+p{
+	line-height: 27px;
+}
+select{
+	background-color: ;
+	width: 44%;
+}
+textarea{
+	background-color:;
+	margin-top: 10px;
+	margin-left: 13px;
+	margin-bottom: 5px;
+	padding: 10px;
+	resize: none;
+	text-align: left;
+}
+textarea:focus{/*contactenos.php*/
+  	background-color: #EAF1FA;
+}
+td, td b{ 
+	background-color:;
+	font-size:13px; 
+} 
+th{
+	background-color:#BCBEDA ; 
+	color: black;
+	font-size: 12px;
+	font-weight: normal;
+	padding:10px;
+}
+tr:hover{
+    background-color: rgba(190, 191, 221, 0.3); 
+    font-weight: bold;
+}
+ul{
+	list-style-position: outside;
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------*/
+#AcuseContacto_01{
+	background-color: ;
+	height: 340px;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+#cambiar{/*DoctorAfiliado.php   ingresar.php*/
+	background-color: ;
+	width: 50%;
+	display: block;
+	margin-top: -1%;
+	margin-left: 45%;
+}
+#Contenido{/*contactenos.php*/
+	background-color: ;
+	min-height: 100px;
+}
+#Directorio_00{/*directorio.php*/
+	background-color:;
+	width: 90%;
+	height:;
+	margin:auto;
+	margin-top: 2%;
+	margin-bottom: 20px;
+	display:;
+	justify-content:;
+}
+#Directorio_00 p{/*Directorio.php*/
+	color:black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+}
+#Directorio_00 a:hover{
+	background-color: ;
+	color:#040652;
+	font-weight: bold;
+}
+#foto{
+	width: 50%; 
+	margin-left: 0%; 
+	margin-right: 10px; 
+	padding:0% 2%;
+}
+#lineaPerfil{
+	display: none;
+}
+#logo{
+	display: none;
+}
+#MenuRes{
+	display:none ;
+}
+.ocultarMenu{/*Todos los archivos sin login*/
+	background-color: ;
+	/*min-height: 220px;*/
+	/*max-width: 1600px;*/
+	margin:15% auto;
+}
+.ocultarMenu_1{/*Todos los archivos con login*/
+	background-color: ;
+	min-height: 220px;
+	/*max-width: 1600px;
+	margin:10% auto;*/
+}
+.ocultarMenu_3{/*.php*/
+	background-color: ;
+	margin-top: 10%;
+	margin-bottom: 8%;
+	min-height: 220px;
+}
+#Pacientes_1{
+	background-color: ;
+	margin-left: 30px;
+}
+#Pacientes_4{/*registro/pacientes.php*/ 
+	background-color:; 
+	margin-top: 0% !important;
+	padding: 0px 40px 5px 20px;
+	width: 100%;
+}
+#perfil{
+	background-color: ;
+	height: 600px;
+}
+#Perfil_1{/*mostrarPerfil_Ingeniero.php */
+	background-color:;
+	margin-top: 15%;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+#Perfil_2{/*mostrarPerfil_Ingeniero.php*/
+	background-color:;
+	width: 60%;
+	margin-right: 5%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	float: right;
+}
+#Perfil_3{/*mostrarPerfil_Ingeniero.php*/
+	background-color:;
+	width: 45%;
+	margin-bottom: 5%;
+	margin-left: 3%;
+	align-items: center;
+	text-align: justify-all;
+	border-top-color: #09204D;  
+	border-top-style: solid; 
+	border-top-width: 1px; 
+	padding-top: 2%;
+	clear: right;
+}
+#Perfil_2 .Perfil_2a, #Perfil_3 .Perfil_2a{/*03.php      mostrarPerfilDoctor_Basico.php**/
+	background-color: #F4FCFB; 
+	display: block; 
+	font-size: 25px; 
+	margin: auto; 
+	margin-bottom: 2%; 
+	text-align:center; 
+	border-style: none; 
+	font-family:verdana; 
+	color:#09204D;
+}
+#Perfil_00{/*03.php  mostrarPerfilDoctor.php*/
+	background-color:;
+	width: 25%;
+	margin-left:5%;
+	margin-top: 8%;
+	float: left;
+} 
+#Perfil_00 h3{ 
+	margin-left: 20px;
+}
+#Perfil_00_A h3{/*Directorio_Ingeniero.php*/
+	background-color: ;
+	margin-left: 20px;
+}
+#Perfil_01{/*Directorio_Ingeniero.php*/ 
+	background-color:;
+	float: right;
+	width: 50%;
+	height: 130px;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+#Perfil_01A{/*Directorio_Ingeniero.php*/ 
+	background-color:;
+	float: right;
+	width: 50%;
+	margin-left: 0%;
+	margin-top: 0px;
+	height: 130px;
+}
+#Perfil_01B{/*03.php*/ 
+	background-color:;
+	display: block;
+	float: right;
+	width: 50%;
+	height: 130px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+}
+#Perfil_02{/*contenedor del horario del doctor en 03.php*/
+	background-color:;
+	float: right;
+	display: block;
+	width: 50%;
+	margin-top: 4%;
+}
+#Perfil_04{/* 03.php*/
+	background-color:;
+	width: 50%;
+	height: 130px;
+	float: right;
+	}
+#Perfil_05{/*mostrarPerfil_Comercio.php  mostrarPerfil_Ingeniero */
+	background-color: ; 
+	width: 100%; 
+	margin-left: 20%;
+	margin: auto; 
+}
+#Perfil_05_A{/*.php*/
+	background-color:; 
+	width: 70%; 
+	margin: auto;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+#Perfil_05_B{/*.php*/
+	background-color: ; 
+	width: 40%; 
+	margin: auto;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+#Perfil_06{/*mostrarPerfil_Comercio.php  mostrarPerfil_Ingeniero.php*/
+	background-color:;
+	margin-top: 10%;
+	display: inline-block;
+	width: 45%;
+}
+#Perfil_06 a{/*03.php    MiPerfil*/
+	color: ;
+	border-radius: 15px;
+	border:0px;
+	padding:4.8px 8px !important;
+	background:#040652;
+	color:#bcbeda;
+	cursor: pointer;
+	height: 25px;
+	font-size:13px;
+}
+#Perfil_06 a:hover{/*03.php    MiPerfil*/
+	background-color: ;
+	font-weight: bold;
+}
+#Perfil_07{/*03.php    medicamentosBuscar.php   Promo_BAsico.php*/
+	background-color: ;
+	display: inline-block;
+	width: 45%;
+	margin:auto;
+}
+#Perfil_07 .botones{/*03.php*/
+	background-color: ;
+	font-size:12px; 
+	padding:0% 20px !important;
+	width: 100px !important;
+	text-align: center;
+}
+#Perfil_08{/* 03.php*/ 
+	background-color:;
+	float: left;
+	width: 50%;
+	margin-left: 0%;
+	margin-top: 0px;
+	height: 130px;
+}
+#Perfil_09{/*Afiliacion.php*/
+	background-color:;
+	display: inline-block;
+	text-align: center;
+	width: 100%;	
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+#Perfil_10{/*planes_I.php  */
+	background-color: ; 
+	width: 100%; 
+	margin-bottom: 5% !important;
+	margin: auto; 
+}
+#Perfil_11{/*medicamentos.php*/
+	background-color: ; 
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	width: 20%; 
+	display: flex;
+}
+#Perfil_12{/*medicamentos.php*/
+	background-color: ; 
+	width: 40%; 
+	display: table-cell;
+	margin:auto;
+	text-align: center;
+}
+#planes{/*Afiliacion.php*/
+    background-color: ;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+#Principal{
+	background-color:;
+	height: 380px;
+	width: 100%;
+}
+#p1{
+	margin:auto;
+	width: 800px;
+}
+#p3, #p5, #p7, #p9{
+	float: left;
+	margin-top: 0px;
+	margin-left: 30px;
+	width: 140px;
+	height: 80px;
+	text-align:center;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#p4 p, #p6 p, #p8 p, #p10 p, #p12 p{
+	font-size: 15px;
+	letter-spacing: 5px;
+
+}
+#p4{
+	padding: 20 15;
+	border-bottom: 1px solid blue;
+	margin-left: 170px;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	width: 800px;
+	height: 190px;
+}
+#p6{
+	padding: 20 0;
+	border-bottom: 1px solid blue;
+	margin-left: 180px;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	width: 800px;
+	height: 65px;
+}
+ #p8{
+	padding: 20 15;
+	border-bottom: 1px solid blue;
+	margin-left: 170px;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	width: 800px;
+	height: 135px;
+}
+#p10{
+	padding: 20 0;
+	border-bottom: 1px solid blue;
+	margin-left: 180px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 800px;
+	height: 40px;
+}
+#p12{
+	padding: 20 0;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 210px;
+	text-align: center;
+}
+#p12 p{
+	text-align: center;
+}
+#Precio_Consulta{
+	position: relative;
+	top: 35px;
+}
+#Recordar{/*Cancelar.php*/
+	margin-top: 1%;
+	margin-left: -40%;
+}
+#registro_1{/*registro.php */
+	background-color: ;
+	width: 70%;
+	padding-bottom: 1%;
+	padding-top: 0%;
+	margin:auto;
+}
+#registro_3{/*Viajes_3.html    Cancelar.html     MiPerfil.php   Afiliacion.php*/
+	background-color:;
+	border-radius: 15px;
+	padding: 10px;
+	margin: auto;
+	width: 60%;
+	font-size: 14px;
+}
+#registro_3 p{
+	margin-top: 3%;
+	background-color: ;
+	font-size: 13px;
+	text-align: center;
+}
+#Recuperar_01{
+	margin-left: 50px;
+	padding-top: 40px;
+}
+#sesion_3{/*RegistroPacientes.phhp*/
+	background-color: ;
+	float: left;
+	padding-left: 60px;
+	width: 50%;
+	min-height: 300px;
+	overflow:auto;/*crea una barra vertical cuando la tabla es mas alta que el div que la contiene*/
+}
+#sesion_3 a{/*RegistroPacientes.php*/
+	text-decoration-line: none;
+}
+#sesion_2{
+	background-color:;
+	float: left;
+	width: 38%;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	padding-left: 0px;
+	display: inline-block;
+}
+#sesion_5{/*RegistroPacientes_Basico.php*/
+	background-color: ; 
+	width: 30%; 
+	float: right; 
+	margin-right: 10%;
+	margin-top: 0%; 
+}
+#sesion_6{
+	background-color: ; 
+	margin-bottom: 5%; 
+	padding-right: 0%; 
+}
+#sesion_7{/*RegistroPacientes_Basico.php*/
+	background-color:;
+	margin-top: 10%; 
+	margin-bottom: 0%;
+}
+#sesion_8{/*Promo_Xxxxxx.phhp*/
+	background-color: ;
+	min-height: 400px;
+}
+#Tapa_2{
+	background-color: rgba(0,0,0,0.85) ;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+}
+#Turno{
+	margin-top: 30%;
+}
+#verPerfil{/*publicaciones.php*/
+	background-color: ;
+	position: absolute;
+	top:490px;
+	left: 130px;
+	z-index: 2;
+}
+#verDemo{
+	margin-left: 43%; 
+	position: relative;
+	top:-60px; 
+	font-size: 19px;
+	height: 25px;
+	display: block;
+}
+#verDemo:hover{
+	margin-left: 43%; 
+	position: relative;
+	top:-60px; 
+	font-size: 22px;
+	font-weight: bolder;
+	height: 25px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.a_1{/*index.php*/
+	text-align: center; 
+	display: block; 
+	margin-top: 8%; 
+	font-size: 25px; 
+	background-color:#040652; 
+	padding:20px; 
+	color: yellow; 
+	border-radius: 15px;
+}
+.a2{/*InicioSesion_Basico     pacienteRegistrado.php  Fechas_Consultas.php*/
+	background-color:;
+	font-size: 13px;
+	height: 25px;
+}
+.a2:hover{/*InicioSesion_Basico     pacienteRegistrado.php*/
+	font-weight: normal;
+}
+.a2a{/*InicioSesion.php    pacienteRegistrado.php  Fechas_Consultas.php*/
+	background-color:;
+	font-size: 13px;
+	font-weight: bold;
+}
+.a2a:hover{/*InicioSesion_Basico     pacienteRegistrado.php  Fechas_Consultas.php*/
+	background-color:#040652;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+.a3{/*pacienteRegistrado.php*/
+	background-color: ;
+    font-size: 16px !important; 
+    font-weight:bolder;
+    color: #040652;
+}
+.a4{/*InicioSesion_Basico.php*/
+	background-color: ;
+    font-size: 13px !important; 
+    font-weight:bolder;
+    color: #040652;
+}
+.A_05{/*03.php*    MostrarPerfilDoctor.php*/
+	background-color:#F4FCFB ;
+	text-align:center;  
+	font-size: 14px; 
+	margin-top: 2%;
+	border-style: none; 
+	font-family:verdana; 
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+}
+.A_05A{/*Servicios_Comercial.php */
+	background-color:#F4FCFB;
+	text-align:left;  
+    padding-left: 21%;
+	font-size: 16px; 
+	margin-top: 2%;
+	border-style: none; 
+	font-family:verdana; 
+	display: inline-block; 
+	width: 150%;
+}
+.A_06{/*Servicios_Comercial.php*/
+	background-color:#F4FCFB ;
+	font-size: 16px; 
+	border-style: none; 
+	font-family:verdana; 
+	margin-top: 0%;
+	text-align: left;
+    padding-left: 15%;
+	width: 180%;
+	overflow: hidden;
+}
+.A_07{/*Servicios_Comercial.php */
+	background-color: #F4FCFB;
+	font-size: 16px;
+	border-style: none; 
+	font-family:verdana;
+    padding: 2% 0% 0% 20%;
+    margin: -13% 0% -5% 0%;
+	width: 150%;
+}
+.A_08{/*Servicios_Comercial.php*/
+	background-color:#F4FCFB;
+	text-align:left;  
+    padding-left: 21%;
+	font-size: 15px; 
+	margin-top: 2%;
+	border-style: none; 
+	font-family:verdana; 
+	display: inline-block; 
+	width: 150%;
+}
+.A_09{/*mostrarPerfil_Ingeniero.php*/
+	background-color:#F4FCFB ;
+	margin:auto;
+	display: block;
+	padding-left: 0%;
+	padding-top: 0%;
+	font-size: 13px; 
+	border-style: none;
+	line-height: 180%; 
+	font-family:verdana; 
+	width: 95%;
+	text-align: justify;
+}
+.A_10{/*mostrarPerfil_Ingeniero.php#F4FCFB */
+	background-color: ;
+	text-align:center; 
+	margin:auto;
+	padding-left: 0%;
+	padding-bottom: 0%;
+	font-size: 13px; 
+	border-style: none; 
+	font-family:verdana;
+	width: 100%;
+	line-height: 180%; 
+}
+.activa{
+	color: #F2F9F9;
+	font-weight: bold;
+}
+.Afiliacion_0 fieldset{/*formularios verticales*/
+	background-color:;
+	border-radius: 15px;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 40px;
+	width: 100%;
+	font-size: 14px;
+}
+.Afiliacion_0 input{/*formularios verticales*/
+	background-color: ;
+	margin-bottom: 10px;
+	width: 49%;
+}
+.Afiliacion_0 input[type=file]{/*formularios verticales*/
+	background-color: ;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.Afiliacion_0 input[type=submit]{/*formularios verticales*/
+	background-color: ;
+	margin: auto !important;
+	display: block;
+	width: 100px;
+}
+.Afiliacion_0 label{/*formularios verticales*/
+	background-color: ;
+	font-size: 14px;
+	margin-left: 15px;
+	margin-right: 15px
+	padding: 2px;
+	float: left;
+	width: 45%;
+}
+.Afiliacion_0 select{/*formularios verticales*/
+	background-color:white  ;
+	font-size: 14px;
+	margin-right: 15px
+	padding: 2px;
+	height: 24px;
+	width: 49% !important;
+	margin-bottom: 2%;
+	text-align-last: center;
+}
+.Afiliacion_0 a{/*formularios verticales*/
+	background-color: ;
+	font-size: 13px;
+	text-align: center;
+}
+.Afiliacion_0 p{/*formularios verticales*/
+	background-color: ;
+	font-size: 13px;
+	text-align: center;
+}
+.Afili_2{/*ingresar.php*/
+	background-color:;
+	margin: auto;
+	width: 30%;
+}
+.Afili_3{/*registroProfesional.php*/
+	background-color:;
+	margin: auto;
+	width: 40%;
+}
+.afiliacion_10{
+	width: 50%;
+}
+.Afiliacion_11{/*Afiliacion.php */
+	background-color: ;
+	width: 60%;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	margin: auto; 
+	line-height: 160%;
+	text-align: center;
+}
+.Afiliacion_12{/*Afiliacion.php*/
+	background-color: ;
+	width: 80%;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	margin: 3% auto; 
+	line-height: 160%;
+	text-align: center;
+}
+.afiliado_02{/*Afiliacion.php*/
+	background-color: ;
+}
+.ancla:before{
+	background-color: ;
+    display: block;
+    content: " ";
+    margin-top: 0%;
+    height: 80px;
+    visibility: hidden;
+}
+.br{/*Servicios_Comercial.php*/
+	margin: 5%;
+}
+.Clave_3{/*CambiarClave.php*/
+	background-color: ;
+	width: 30%;
+	margin: 4% auto;
+}
+.clave_5{/*CambiarClave.php*/
+	background-color:;
+	display: none;
+}
+.clave_6{/*CambiarClave.php*/
+	background-color: ;
+	display: none;
+}
+.color{/*directorio.php  directorio_com.php*/
+	color: #040652;
+}
+.comandoMenu{/*index.php  headerPrincipal.php*/
+	display: none;
+}
+.comer_1{/*comercio.php*/
+	background-color: ;
+	text-align: center;
+	margin-top: 17%;
+}
+.contacto{/*contactenos.php*/
+	background-color: ;
+	width: 80%;
+	margin: 4% auto;
+}
+.contacto_1{/*configurarT.php*/
+	background-color: ;
+	width: 100%;
+	margin-top: 1%;
+}
+.contacto_2{/*Servicios_Comercial.php.php*/
+	background-color: ;
+}
+.contacto_2A{/*Servicios_Comercial.php*/
+	background-color: ;
+	width: 20%; 
+	margin-left: 2%;
+}
+.contenedor_03_A{/*Servicios_Comercial.php*/
+    background-color:;
+    width: 40%; 
+    position: absolute;  
+    top: 15%;
+    left: 50%;
+    display: grid; 
+    grid-template-columns: 200px 50px  200px;
+    grid-template-rows: 70px;
+    justify-content: center;
+}
+.contenedor_03_B{/*Directorio_Tatto.php*/
+    background-color:;
+    width: 40%; 
+    position: absolute;  
+    top: 15%;
+    left: 50%;
+    display: grid; 
+    grid-template-columns: 200px 50px  200px;
+    grid-template-rows: 70px;
+    justify-content: center;
+}
+.contenedor_03_C{/*Directorio_Tatto.php*/
+	background-color: ;
+	float: none; 
+	width: 40%; 
+	margin-left: 2%; 
+	height: 550px;
+}
+.contenedor_04_C{/*Servicios_Comercial.php   Directorio_Tatto.php*/
+	background-color: #D6EAF8 ;/*azul claro*/
+	width: 58%;
+	margin-left: 42%;
+	padding: 0.5% 2%;
+	display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    position: fixed;
+    z-index: 10;
+}
+.contenedor_05_C{/*Servicios_Comercial.php*/
+	background-color: ;
+	margin-top: 1%;
+}
+.contenedor_06_C{/*Servicios_Comercial.php*/
+	background-color: ;
+	text-align: left;
+	padding-left: 5%;
+	margin-bottom: 1%;
+}
+.contenedor_SliderCom_1{/*index.php*/
+	display: none;
+}
+.contenedor_SliderCom_2{/*Servicios_Comercial.php*/
+    background-color: ; 
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    width: 35%; 
+    height: 260px;
+}
+.contador{/*contactenos.php     perfil_comercio.php*/
+	background-color: ;
+	width: 35px !important;
+	margin-left: 90%;
+	height: 16px;	
+	line-height: 16px;
+	font-size: 12px;
+}
+.container_13{/*index.html    index.php*/
+	background-color:;
+	text-align: center;
+	width: 70%;
+    display: flex;
+    justify-content:center;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container_13 p{
+	margin-top: 3%;
+}
+.container_13 .n20{/*index.html     index.php*/
+	background: -webkit-linear-gradient(bottom, white 80%, #11105A 20%);
+	border:2px solid #000;
+	border-radius:15px;
+	padding-top: 3px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 15px;
+	margin-bottom: 0%;
+ 	width: 50%;
+ 	float: left;
+	margin: 0px 3%;
+}
+.contenedor{/*index.php*/
+	background-color:;
+	margin-top: -1% !important;
+	width: 98%;
+	margin-top: -5% !important;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 330px 330px 330px 330px;
+}
+.contenedor_01{/*recibeRegistro.php*/
+	background-color: ;
+	margin-top: 3%;
+}
+.contenedor_02{/*recibeRegistro.php*/
+	background-color:;
+	width: 100%;
+	margin:auto; ;
+}
+.contenedor_03{/*configurarT.php*/
+	background-color:;
+	width: 100%;
+	text-align: center;
+	padding:3.8% 9%; 
+	color:rgba(194, 245, 19,1);
+}
+.contenedor_07_C{/*Servicios_Comercial.php*/
+	background-color: ;
+	margin-top: 3%;
+}
+.contenedor_08{/*Servicios_Comercial.php*/
+	background-color: ;
+	width: 40%; 
+	margin-left: 6%;
+}
+.contenedor_09{/*Directorio_Tatto.php  */
+	background-color: ;
+	width: 30%; 
+	margin-left: 6%;
+}
+.contenedor_10{/*Servicios_Comercial.php  */
+	background-color: ;
+	width: 100%; 
+	margin-left: 6%;
+}
+.contenedor_11{/*registroProfesionales.php */
+	background-color:blue ;
+	display: none;
+}
+.contenido{/*configurarT.php*/
+	background-color:transparent;
+	width: 350px;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	border: none;
+	font-size: 13px;
+	margin:auto;
+}
+.contenido_1{/*perfil_ingeniero.php*/
+	background-color:;
+	width: 90%;
+	display: block;
+	margin-right: auto;
+	margin-left: 10px;
+	font-size: 13px;
+	overflow: hidden;
+}
+.contenido_1A{/*perfil_ingeniero.php*/
+	background-color:;
+	width: 90%;
+	display: none;
+	margin-right: auto;
+	margin-left: 10px;
+	font-size: 13px;
+	overflow: hidden;
+}
+.contenido_1B:hover{/*perfil_ingeniero.php*/
+	background-color: ;
+	cursor: pointer;
+}
+.contenido_2{/*contactenos.php*/
+	background-color:;
+	width: 95%;
+	margin-right: auto;
+	overflow: hidden;
+	padding:0% 2%;
+	margin-left: 10px;
+	font-size: 13px;
+}
+.contenido_3{/*Servicios_Comercial.php*/
+	background-color:#F4FCFB;
+	color: #040652;
+	width: 95%;
+	min-height: 250px;
+	margin-right: auto;
+	overflow: hidden;
+	padding:2%;
+	font-size: 20px;
+	line-height: 180%;
+	text-align: center;
+	border: none;
+}
+.contenido_4{/*perfil_comercio.php*/
+	background-color:;
+	width: 49%;
+	min-height: 80px;
+	margin-right: auto;
+	overflow: hidden;
+	padding:0% 2%;
+	margin-left: 0px;
+	font-size: 15px;
+}
+.diagnostico_1{/*diagnostico.php   diagnostico_2.php*/
+	background-color: ;
+	min-height:100px; 
+	margin-bottom: 0%; 
+	overflow: hidden;
+	width: 95%;  
+	padding-left: 1%;
+}
+.diagnostico_2{/*diagnostico_Basico.php   diagnostico_Basico_2.php*/
+	background-color:;
+	text-align: justify-all; 
+	margin-top: 2.5%; 
+	margin-left: 1.5%;
+	width: 95%;  
+	display: inline-block;
+	padding-left: 1%;
+}
+.directorio{/*directorio.php  directorio_com.php*/
+	background-color: ;
+	margin-bottom: 2%;
+}
+.directorio_02{/*directorio.php  directorio_com.php*/
+	background-color: ;
+	margin-top: 4% !important;
+}
+.directorio_3{/*directorio.php  directorio_com.php*/
+	background-color: ;
+	font-size: 23px; 
+	margin-left: 5%;
+}
+.Directorio_5{/*directorio.php  directorio_com.php*/
+	background-color:;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-bottom: 2%;
+	justify-content: space-between; 
+    display: flex;
+}
+.Doctores_2{/**/
+	background-color:;
+	margin-top: 5%;
+}
+.DocAfiliado{/*Afiliacion.php*/
+	background-color:;
+	width: 90%;
+	margin: auto;
+	margin-top: 1%;
+}
+.DocAfiliado_1{/**/
+	background-color:;
+	width: 80%;
+	margin: auto;
+}
+.encabezado_03{/*Servicios_Comercial.php*/
+	background-color:#F4FCFB;
+	margin-top: 1%;
+	height:55px !important; 
+	width: 100%; 
+}
+.encabezadoSesion{/**/
+	background-color: ;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+.encabezadoSesion_1{/*toas las paginas de sesion; verificar si esta clase se puede eliminar e insertar los atributos al h3*/
+	background-color: ;
+	margin-top: 10%;
+	margin-bottom: 3%;
+}
+.encabezadoSesion_2{/*quirurgico.php    medicamentos.php   pacient_medicament.php*/
+	background-color: ;
+	margin-top: 10%;
+	margin-bottom: 0%;
+}
+.enlace_1{/*directorio.php    directorio_Com*/
+	background-color: ;
+	padding:0% 2%;
+	display: inline-block;
+	width: 25%;
+}
+.enlace_2{/*index.php*/
+	background-color: ;
+	font-weight: bold;
+	color: white;
+	font-size: 20px !important;
+	width: 70% !important;
+	height: 100%;
+	padding: 4% 0% !important;
+}
+.enlace_2:hover{/*index.php*/
+	color: #040652 !important;
+}
+.enlace_3{/*Directorio_Tatoo.php*/
+	background-color: ;
+	color:  #040652;
+	font-size: 20px !important;
+	cursor: pointer;
+}
+.enlace_3:hover{/*Directorio_Tatoo.php*/
+	font-weight: bold;
+}
+.etiqueta_1{/*MiPerfil_Basico.php*/
+	background-color:;
+	width: 80px !important;
+	margin-left: 48% !important;
+}
+.etiqueta_1B{/*MiPerfil_Basico.php*/
+	background-color:;
+	width: 400px !important;}
+.etiqueta_2{
+	float: left;
+	width: 160;
+	margin-left: 10px;
+}
+.etiqueta_3{
+	float: left;
+	width: 25px;
+	margin-left: 50px;
+}
+.etiqueta_4{
+	float: left;
+	width: 25px;
+	margin-left: 65;
+}
+.etiqueta_5{/*HistoriasClinicas.php      registroPAcientes.php*/
+	background-color:;
+	float: left;
+	position: relative;
+	width: 20%;
+}
+.etiqueta_6{/*HistoriasClinicas.php      registroPAcientes.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 7.5%;
+	margin-right: -0.5%;
+	width: 200px !important;
+}
+.etiqueta_7{/*aplicado a label de HistoriasClinicas.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 0%;
+	margin-right: -8%;
+	width: 20%;
+}
+.etiqueta_8{/*aplicado a input de HistoriasClinicas.php*/
+	background-color:;
+	margin-right: -1.5%;
+	background-color:;
+	float: left;
+	position: relative;
+	width: 20%;
+}
+.etiqueta_9{/*MiPerfil_Basico.php*/
+	background-color:;
+	margin-left: 10% !important;
+	margin-right: -1.5%;
+	float: left;
+	position: relative;
+	width: 16%;
+}
+.etiqueta_10{/*MiPerfil_Basico.php*/
+	background-color:;
+	margin-left:  -7%;
+	position: relative;
+	width: 20%;
+}
+.etiqueta_11{/*registroPAciente.php    historiasClinicas_Basico.php*/
+	background-color: ;
+	margin-left: 0%;
+	width: 93%;
+	font-size: 15px;
+}
+.etiqueta_12{/*aplicado a label de HistoriasClinicas.php*/
+	background-color:;
+	float: left;
+	position: relative;
+	width: 60%;
+	margin-top: 2%;
+	display: block;
+}
+.etiqueta_15{/*registroPaciente.php*/
+	background-color: ;
+	color:rgba(194, 245, 19,1) !important ; 
+	margin: 5% 40%;
+}
+.etiqueta_15:hover{/*registroPaciente.php*/
+	color:white  !important ; 
+}
+.etiqueta_18{
+	background-color: ;
+	margin-left: 0%;
+	width: 93%;
+	height: 60px;
+	font-size: 12px;
+}
+.etiqueta_19{/* diagnostico.php     HistoriClinicas.php  diagnostico2.php  actualizarDatos.php*/
+	background-color: ;
+	float: left; 
+	width: 25%;
+	margin-left: 15%;
+}
+.etiqueta_20{/*registroPAcientes.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 6.5%;
+	margin-right: -0.5%;
+	width: 200px !important;
+}
+.etiqueta_21{/*InicioSesion_Basico.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 10%;
+	width: 8%;
+}
+.etiqueta_22{/*InicioSesion_Basico.php*/
+	background-color:;
+	display: inline-block;
+	width: 10%;
+}
+.etiqueta_23{/*registroPaciente.php   cargarPaciente_Basico.php*/
+	background-color:;
+	float: left;
+	position: relative;
+	margin-bottom: 2%;
+	width: 45%;
+}
+.etiqueta_24{/*.php*/
+	background-color:red;
+	float: left;
+	position: relative;
+	margin-bottom: 2%;
+	width: 49%;
+}
+.etiqueta_25{/*registroPaciente.php   actualizarDatos_Basico.php*/
+	background-color:;
+	float: left;
+	position: relative;
+	margin-bottom: 2%;
+	width: 50%;
+}
+.etiqueta_26{/*  actualizarDatos_Xxxxxx.php   MiPerfil_Gratis.php*/
+	background-color:white;
+	position: relative;
+	margin-bottom: 3%;
+	width: 45% !important;
+}
+.etiqueta_34{/*RegistroPacientes_Xxxxxxx.php*/
+	background-color:;
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+.etiqueta_35{/*RegistroPacientes_Xxxxxxx.php*/
+	background-color:;
+	display: block;
+	width: 30%;
+	margin: auto;
+	margin-bottom: 3%;
+}
+.etiqueta_27{/*pacient_medicam.php    medicamentos.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 20%;
+	width: 8%;
+}
+.etiqueta_28{/*pacient_medicam.php*/
+	background-color:;
+	display: inline-block;
+	width: 10%;
+}
+.etiqueta_29{/*InicioSesion_Basico.php*/
+	background:#040652;
+	display: inline-block;
+	color: rgba(194, 245, 19,1) !important;
+	border-radius: 15px;
+	border:0px;
+	padding:4.8px 8px !important;
+	width: 80px !important;
+	cursor: pointer;
+	height: 25px;
+	font-size:13px;
+	margin-left: 1%;
+}
+.etiqueta_29:hover{/*pacient_medicam.php*/
+	padding:3.8% 9%; 
+	color:white !important;
+}
+.etiqueta_30{/*HistoriasClinicas_Basico.php*/
+	background-color: ;
+	width:44% !important;
+}
+.etiqueta_31{/*HistoriasClinicas_Basico.php*/
+	background-color: ;
+	width:44% !important;
+	margin-left: 4%;
+}
+.etiqueta_32{/*Perfil_damaComp.php*/
+	background-color:;
+	margin-bottom:2%;
+	font-size: 14px !important;
+	text-align-last: center;
+	height:24px;
+	width: 49%;
+}
+.etiqueta_33{/*CambiarClave.php*/
+	background-color:;
+	margin-left:15%;
+	margin-right: 10%;
+	margin-bottom:2%;
+	font-size: 14px !important;
+}
+.etiqueta_34{/*CambiarClave.php*/
+	background-color:;
+	margin:auto;
+	margin-bottom:2%;
+	margin-top: 3%;
+	font-size: 14px !important;
+}
+.fecha{
+	background-color: ;
+	width: 93%; 
+	z-index: 2; 
+	position: absolute; 
+	top: 15%; 
+	height: 20px; 
+	font-size: 14px;
+}
+.fixed{/*fija el abecedario en directorio.php es agregada por medio de menu.js*/
+	background-color: red;
+	position:fixed;
+	top: -12%;
+	padding: 4% 0% 3% 0%;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #040652;
+	background-color: #F4FCFB;
+	left:33px;
+	transition-duration: 1s;
+}
+.fixed_1{/*fija el header en todos archivos sin login*/
+	background-color:#F4FCFB;
+	position:fixed;
+	top: 0%;
+	width: 100%;
+	padding-bottom: 1%;
+	margin-bottom: 5%;
+}
+.grid{/**/
+	display: none;
+}
+.grid_2{/*Servicios_Comercial.php*/
+	background-color:;
+    margin: 4% ; 
+    width: 100%; 
+    border-style: ; 
+    border-width: 1px; 
+    border-radius: 5px; 
+    line-height: 350%; 
+    text-align: center;
+}
+.grid_2 a{/*Servicios_Comercial.php*/
+	background-color: ;
+    font-size: 20px;
+}
+.header_01{/*headerAfiliado.php   headerAfiliado_com.php*/
+	 background-color:#040652 ; 
+	 width: 75%; 
+	 height: 66px;
+	 float: left; 
+	 border-right-color: white; 
+	 border-right-style: solid;
+	 border-right-width: 1px; 
+	 z-index: 0;
+}
+.header_02{/*headerAfiliado.php   headerAfiliado_com.php*/
+	background-color:; 
+	color: rgba(194, 245, 19,1);/*verde manzana*/
+	cursor: default; 
+	font-size: 3vw; 
+	height: 100%; 
+	padding: 1% 0%;  
+	text-align: center; 
+	padding-left: 2%
+}
+.header_03{/*headerAfiliado   headerAfiliado_com.php*/
+	background-color:#040652;
+	height: 66px;
+	float: right;   
+	width: 25%;
+	display: flex;
+	align-items: flex-end;
+}
+.horario_1{/*Servicios_Comercial.php*/
+	background-color: ;
+	padding-left: 4%;
+	margin-left: 2%;
+}
+.horario_2{/*Servicios_Comercial.php*/
+	font-size: 16px;
+}
+.horario_3{/*Servicios_Comercial.php*/
+	margin-top: 2%;
+}
+.imagen{/* index.php */
+	width: 100%; 
+	object-fit:contain ;/* deseado cover */
+	filter: brightness(110%);
+}
+.imagen_1{/*configurarT.php*/
+	width: 18px; 
+	height: 18px;
+	object-fit:contain ;/* deseado cover */
+	filter: brightness(110%);
+	margin-left: 2%;
+	float: left;
+}
+.imagen_2{/*configurarT.php  configurarT_com.php*/
+	filter: brightness(110%);
+	width: 50% !important;
+}
+.imagen_3{/*index.php*/
+	width: 100%; 
+	height: 200px;
+	object-fit:contain ;/*deseado cover*/
+	filter: brightness(110%);
+	padding: 1%;
+	object-fit:cover ;/*deseado es el valor cover*/
+}
+.imagen_4{/*index.php*/
+	width: 30%; 
+	object-fit:contain ;/*deseado cover*/
+	filter: brightness(110%);
+	border-radius: 15px;
+} 
+.imagen_5{/* Servicios_Comercial.php*/
+	border-radius: 15px;
+	border-top-left-radius: 200px; 
+	border-style: solid;
+	border-width: 1px;
+	border-color: #040652;
+}
+.imagen_6{/*Servicios_Comercial.php*/
+	float: left; 
+	margin-right: 5%; 
+	margin-bottom: 3%; 
+	padding-top: 4%;
+	filter: brightness(110%);
+	width: 50% !important;
+}
+.imagen_7{/*Directorio_Tatto.php   Directorio_Ingeniero.php*/
+	background-color: ;
+	width: 50%; 
+	object-fit:contain ;/* deseado cover */
+	filter: brightness(110%);
+	height: 400px;
+}
+.imagen_8{/*FotoPerfil.php*/
+	background-color: ;
+	width: 70%; 
+	object-fit:contain ;/* deseado cover */
+	filter: brightness(110%);
+	height: 400px;
+}
+.imagen_Div_2{/*configurarT.php    configurarT_com.php */
+	background-color: ;
+	position: absolute;
+	top: 75%;
+	left: 38.2%;
+	width: 12%
+}
+.input_2{/*Servicios_Comercial.php*/
+	text-align: left; 
+	padding-left: 2%;
+}
+.input_3{/*Directorio_Tatto.php  Directorio_Ingeniero.php*/
+	background-color:#F4FCFB ;
+	color: #040652;
+	border: none;
+	font-size: 30px;
+	display: block;
+	width: 100%;
+	margin-bottom: 1%;
+}
+.input_3A{/*Directorio_Tatto.php  Directorio_Ingeniero.php*/
+	background-color:#F4FCFB ;
+	color: #040652;
+	border: none;
+	font-size: 30px;
+	display: block;
+	width: 100%;
+	margin-bottom: 1%;
+}
+.label_1{/*Servicios_Comercial.php*/
+	font-weight: bold;
+}
+.usuarioAfiliado{/*paginas login -  texto identificando al afiliado*/
+	background-color:#040652; 
+	display: inline-block; 
+	font-size:19px;  
+	height: 25px; 
+	text-align:right; 
+	border-style: none; 
+	font-family:verdana; 
+	width: 300px; 
+	color:#F4FCFB;
+	float:right;
+	margin-left: auto;
+	margin-bottom: 2%;
+	padding-right: 3%;
+}
+.Inicio_0{/*mostrarPerfil_Ingeniero.php*/
+	text-align: center;
+	padding: 0 15%;
+	width: 100%;
+	color:  #000F2E;
+	background-color:;
+	margin-bottom: 1%;
+	font-weight: bolder;
+	font-family: 'courier';
+	text-align: center;
+}
+.Inicio_1{/*configurarT.php  background-color:#F4FCFB;*/
+	background-color:transparent ;
+	font-family: calibri;
+	font-size:30px;
+	width: 80%;
+	text-align: left;
+	margin: 0% 2%;
+	border: none;
+} 
+.Inicio_2{/*configurarT.php background-color:#F4FCFB*/
+	background-color:transparent; 
+	color: #040652;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	text-align:left;
+	width: 80%;
+	margin: auto 4%;
+	border: none;
+}
+.Inicio_3{/*configurarT.php*/
+	background-color:#BCBEDA; 
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-size:12px;
+	text-align:center;
+	margin-top: 2%;
+}
+.Inicio_4{/*index.php    recibeRegistro.php*/
+	background-color:#F4FCFB;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px; 
+	text-align: center; 
+	margin: 8% auto; 
+	border: none;
+	width: 80%;
+	line-height: 170%;
+}
+.Inicio_5{/*recibeRegistro.php */
+	background-color:; 
+	color: #040652;
+	font-family: 'Raleway', sans-serif;
+	font-size:30px;
+	text-align:center;
+	width: 100%;
+	margin: auto;
+	margin-bottom: -6%;
+}
+.Inicio_6{/*recibeRegistro.php */
+	background-color:; 
+	color: #040652;
+	font-family: 'Raleway', sans-serif;
+	font-size:30px;
+	text-align:center;
+	width: 80%;
+	padding: 1% 1%;
+	margin: auto;
+}
+.Inicio_7{/*index.php */
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	text-decoration: none; 
+ 	font-size: 30px; 
+ 	position: absolute;
+ 	top: 13%;
+ 	left: 80%;
+ 	z-index: 1
+}
+.Inicio_8{/*Index.php*/
+	background-color:; 
+	color:  #040652;
+	font-family: 'Raleway', sans-serif;
+	font-size:25px;
+	text-align:center;
+    margin: 7% auto;
+    width: 80%;
+    line-height: 170%;
+}
+.Inicio_9{/*index.php*/
+	background-color:; 
+	color: #040652;
+	font-family: 'Raleway', sans-serif;
+	font-size:28px;
+	text-align:center;
+	width: 80%;
+	line-height: 160%;
+	padding: 4%;
+	margin: auto;
+}
+.Inicio_10{/*Index.php */
+	background-color: ;
+	color: white;
+	position: absolute;
+	top: 13%;
+	left: 5%;
+	font-size: 25px;
+}
+.Inicio_11{/*Index.php*/
+	background-color:; 
+	margin-top: 1%;
+}
+.Inicio_12{/*configurarT.php   configurarT_com.php*/
+	background-color:transparent;
+	font-size:12px;
+	text-align: left; 
+	margin-left: 2%; 
+	border: none;
+	width: 350px;
+}
+.Inicio_13{/*directorio.php   directorio_com.php*/
+    background-color: ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    width: 100%;
+    margin-bottom: 2%;
+    line-height: 30px;
+}
+.Inicio_16{/*Afiliacion.php*/
+	background-color: ;
+	margin-top: 2% !important;
+	margin: auto;
+}
+.Inicio_17{/*index.php*/
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	text-align: center;
+	margin-top: -3% !important;
+	margin-bottom: 6% !important;
+	margin-left: auto;  
+	margin-right: auto;
+}
+.Inicio_18{/*directorio.php  directorio_com.php*/
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	font-size:25px;
+	color:#040652 !important;
+	text-align: center;
+	margin: 10% auto 2% auto;
+}
+.Inicio_19{/* directorio.php  directorio_Com.php*/
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	font-size:30px;
+	font-weight: bold;
+	color:#040652 !important;
+	letter-spacing: 4px;
+	text-align: center;
+	margin-top: 3%;
+}
+.Inicio_20{/*directorio.php*/
+	background-color:  #F4FCFB; 
+	display: block; 
+	margin: auto; 
+	width:200px; 
+	font-size: 18px; 
+	text-align-last: center;
+}
+.Inicio_21{/*Afiliacion.php*/
+	background-color: ; 
+	width:100%; 
+	font-size: 12px; 
+}
+.Inicio_22{/*Directorio_Tatto.php*/
+	text-align:center;
+    margin: auto;
+    display: block;
+	border-radius: 15px;
+	border:0px;
+	padding:2px 2px;
+	background:#040652;
+	color:rgba(194, 245, 19,1);
+	cursor: pointer;
+	width:95px;
+	height: 22px;
+	font-size:13px;
+}
+.Inicio_23{/*ingresar.php*/
+	background-color: ;
+	color:#040652;  
+	display: block;
+	width: 100%; 
+	font-size: 15px !important; 
+	font-weight: bold;  
+	text-align: center; 
+	margin-top: 3%;
+}
+.Inicio_24{/*Directorio_Tatto.php*/
+	background-color:;
+	color:#040652;  
+	font-size: 45px; 
+	font-weight: bold;  
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: -5%;
+}
+.lista_1{/*Servicios_Comercial.php*/
+	background-color: ;
+	padding:1% 7%;
+	font-size: 17px;
+}
+.main{
+	background-color:;
+	width: 100%;
+	height:50%;
+	padding-left: 12%;
+}
+.marcador{/*perfil_comercio.php  Servicios_Comercial.php*/ 
+	background-color: ;
+	line-height: 30px;
+	display: inline-block;
+	width: 100%;
+	font-size: 16px !important;
+}
+.marcador:hover{/*perfil_comercio.php*/ 
+	background-color: #BCBEDA;
+	color:white;
+}
+.mayuscula{/*registroProfesional.php*/
+	text-transform: capitalize;
+}
+.minuscula{/*registroProfesional.php*/
+	text-transform: lowercase;
+}
+.menu{
+	background-color:;
+	width: 25%;
+	height: 50%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 0%;
+	position: fixed;
+}
+.menuResponsive ul{/*todas las paginas*/
+	background-color: #BCBEDA;
+	border-bottom-color: #040652;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: 100%;
+	margin:auto;
+	list-style: none;
+	display: flex;/*Organiza los elementos horizontalmente*/
+}
+.menuResponsive li{/*proposito*/
+	flex-grow: 1;/*distribuye proporcionalmente los elementos internos en el eje horizontal, es necesario que el elemento padre tenga la propiedad display con el valor flex*/
+}
+.menuResponsive li a{
+	background-color: ;
+	display: block;
+	width: 60%;
+	margin: auto;
+	font-size: 15px;
+	text-align: center;
+	padding:1.5% 0%;
+}
+.menuResponsive li a:hover{
+	background-color: ;
+	color: white;
+}
+.modal{/*directorio.php   directorio_Com.php*/
+	width: 100%;
+	height: 190%;
+	background-color: /*rgba(0,0,0,0.65)*/;
+	position: absolute;
+	padding-top: 5%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+
+	/*Todas las reglas de animación no funcionan bien en Chrome desde android*/
+	/*animation: modal 1s;tiempo que tarda en formarse la animacion*/
+	/*animation-delay: 0.5s;tiempo que tarda en aparecer la animacion*/
+	/*animation-fill-mode: forwards;la animacion se queda fija*/
+	/*visibility: hidden;
+	opacity: 0;*/
+}
+.modalFondo{/*.php*/
+	background-color: ;
+	width:100%
+}
+.mostrar_1{/*mostrarPerfil_Ingeniero.php*/
+	background-color:; 
+	margin-bottom: 5%; 
+	border-width: 2px; 
+	border-style: solid; 
+	border-radius: 10px;
+	border-color:  #040652; 
+	padding: 3%;
+}
+.parrafo_1{/*Directorio_Tatto.php*/
+	clear: left; 
+	padding-left: 5%; 
+	/*margin-top: 7%; */
+	font-size: 20px;
+}
+.p_2{/*footer*/
+	/*background-color: #E95B5B;*/
+	font-family: Montserrat;
+	font-size: 10px;
+}
+.Perfil_00_A{/*mostrarPerfil_Ingeniero.php  mostrarPerfil_Comercio.php*/
+	background-color:;
+	width: 25%;
+	margin-left:5%;
+	margin-top: 3%;
+	float: left;
+}
+.Perfil_00_B{/**/
+	background-color:;
+	width: 25%;
+	margin-left:5%;
+	margin-top: 3%;
+	float: left;
+}
+.Perfil_00_C{/*Servicios_Comercial.php  Directorio_Tatto.php  Directorio_Ingeniero.php*/
+	background-color:;
+	width: 40%;
+	margin-left:1%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	float: left;
+}
+.Perfil_1C{/*Servicios_Comercial.php  Directorio_Tatto.php  Directorio_Ingeniero.php*/
+	background-color:;
+	margin-top: 1%;
+	width: 100%;
+}
+.perfil_1{/*mostrarPerfil_Comercio*/
+	float: right !important; 
+	width: 90% !important; 
+	text-align: left !important;
+}
+.perfil_1:hover{/*mostrarPerfil_Comercio*/
+	font-weight: bolder;
+	cursor: pointer;
+}
+.Perfil_2a{/*mostrarPerfil_Ingeniero.php **/
+	background-color: #D6EAF8; 
+	display: block; 
+	font-size: 25px;
+	line-height: 25px; 
+	margin: auto; 
+	margin-bottom: 2%; 
+	text-align:center; 
+	width: 80%;
+	border-style: none; 
+	font-family:verdana; 
+	color:#09204D;
+	border-radius: 15px;
+}
+.reposicion{/*directorio.php*/
+    padding-top: 300px;
+    transition-duration: 1.5s;
+}
+.RecibeClave{/*recibe_CambiarClave.php*/
+	background-color: ;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+.recordar{/*Cancelar.php*/
+	background-color:;
+	display: inline-block;
+	width: 200%;
+	font-size: 13px; 
+	margin-left: 10%;
+	font-family:verdana;
+	text-align: center;
+}
+.salir{/*directorio.php  directorio_com.php*/
+	color: #040652; 
+	display: block; 
+	font-size: 20px; 
+	margin: auto;
+	text-align: center; 
+	margin-top: 15%;
+}
+.sinRegistros{/*directorio.php  directorio_com.php*/
+	margin-left: 5%;
+	color: #040652;
+	font-size:13px;
+}
+.span_03{/*registroEspecialista.php*/
+	background-color: ;
+	display: block;
+	margin-bottom: 4%;
+	width: 100%;
+	text-align: center;
+}
+.submitContacto{/*contactenos.php*/
+	margin-left: 35%; 
+}
+.tarjeta_1{/*configurarT.php*/
+	background-color: transparent;
+    width: 30%; 
+    margin: 2% auto;
+}
+.textarea_1{/*Servicios_Comercial.php*/
+	margin-left: 0%; 
+	width: 45%;
+}
+.textarea_2{/*perfil_comercio.php*/
+	margin-left: 0%; 
+	width: 49%;
+}
